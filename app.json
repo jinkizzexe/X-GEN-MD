@@ -9,7 +9,7 @@
     "SESSION_ID": {
       "description": "Put your session id here",
       "required": true,
-      "value": ""
+      "value": "slasher_AnnoyingNewcomb"
     }
   },
    "buildpacks": [
