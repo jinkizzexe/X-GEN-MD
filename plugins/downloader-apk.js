@@ -7,7 +7,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 	await m.reply('_In progress, please wait..._')
 	conn.sendMessage(m.chat, { document: { url: res.download }, mimetype: res.mimetype, fileName: res.fileName }, { quoted: m })
 }
-handler.help = ['apkdl']
+handler.help = ['apk']
 handler.tags = ['downloader']
 handler.command = /^(apkdl)$/i
 
