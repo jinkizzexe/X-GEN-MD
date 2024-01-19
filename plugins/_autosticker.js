@@ -8,8 +8,8 @@ handler.before = async function (m) {
     if (chat.stiker && !user.banned && !chat.isBanned && !m.fromMe && !m.isBaileys) {
         // try {
         let q = m
-        let stiker = false
-        let wsf = false
+        let stiker = true
+        let wsf = true
         let mime = (q.msg || q).mimetype || ''
         if (/webp/.test(mime)) return
         if (/image/.test(mime)) {
